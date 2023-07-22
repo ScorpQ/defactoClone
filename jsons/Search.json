@@ -1,0 +1,218 @@
+{
+  "Data": { 
+    "MetaTitle": null,
+    "MetaDescription": null,
+    "MetaKeywords": null,
+    "SearchResponse": {
+      "Count": 5,
+      "Documents": 
+        [
+          {
+            "DiscountRate": 0,
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Crop Pötikareli Yuvarlak Yaka Kolsuz Bluz",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Crop Pötikareli Yuvarlak Yaka Kolsuz Bluz"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_01_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27"
+          },
+          {
+            "DiscountRate": 0,
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Crop Pötikareli Yuvarlak Yaka Kolsuz Bluz",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Crop Pötikareli Yuvarlak Yaka Kolsuz Bluz"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_01_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27"
+          },
+          {
+            "DiscountRate": 0,
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Crop Pötikareli Yuvarlak Yaka Kolsuz Bluz",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Crop Pötikareli Yuvarlak Yaka Kolsuz Bluz"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_01_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27"
+          }
+        ],
+
+      "Facets": [
+        {
+          "FacetKey": "fx_c1",
+          "FacetName": "Cinsiyet",
+          "DisplayOrder": 1,
+          "SearchFacetItems": [
+            {
+              "Index": "2",
+              "Term": "Kadın",
+              "Url": null,
+              "DisplayOrder": 1,
+              "IsSelected": false
+            }
+          ],
+          "IsInvisible": false
+        },
+        {
+          "FacetKey": "fx_c3",
+          "FacetName": "Kategori",
+          "DisplayOrder": 3,
+          "SearchFacetItems": [
+            {
+              "Index": "25",
+              "Term": "Elbise",
+              "Url": null,
+              "DisplayOrder": 6,
+              "IsSelected": false
+            }
+          ],
+          "IsInvisible": false
+        },
+        {
+          "FacetKey": "fx_s",
+          "FacetName": "Beden",
+          "DisplayOrder": 5,
+          "SearchFacetItems": [
+            {
+              "Index": "2",
+              "Term": "XS",
+              "Url": null,
+              "DisplayOrder": 44,
+              "IsSelected": true
+            }
+          ],
+          "IsInvisible": false
+        },
+        {
+          "FacetKey": "fx_c",
+          "FacetName": "Renk",
+          "DisplayOrder": 7,
+          "SearchFacetItems": [
+            {
+              "Index": "9600",
+              "Term": "Siyah",
+              "Url": null,
+              "DisplayOrder": 0,
+              "IsSelected": true
+            }
+          ],
+          "IsInvisible": false
+        },
+        {
+          "FacetKey": "fx_r",
+          "FacetName": "Fiyat",
+          "DisplayOrder": 9,
+          "SearchFacetItems": [
+            {
+              "Index": "10",
+              "Term": "101 TL - 200 TL",
+              "Url": null,
+              "DisplayOrder": 8,
+              "IsSelected": false
+            }
+          ],
+          "IsInvisible": false
+        }
+      ]
+    }
+  },
+  "Status": 1
+}

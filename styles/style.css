@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-width: 800px;
+    border-bottom: 6px solid black;
+}
+
+.header img{
+    width: 130px;
+}   
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+}
+nav ul li{
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content img{
+    width: 450px;
+}

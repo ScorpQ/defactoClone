@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*
+    background-color:black;
+    color: white;
+    */
+}
+
+
+/*           HEADER         */
+.header-container{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-evenly;
+    border-bottom: 1px solid green; 
+    height: 130px;
+    margin: 10px auto;
+    width: 98%;
+}
+/*           HEADER TOP ROW        */
+.header-topRow{
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    margin-top: -20px;
+}
+.header-topRow ul{
+    display: flex;
+    list-style: none;
+    margin: 0 10px 0 10px;
+}
+.header-topRow ul li{
+    display: flex;
+}
+.header-topRow ul li::after{
+    content: " | ";
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+.header-topRow li:last-child::after{
+    content: "";
+}
+/*           HEADER MIDDLE ROW        */
+.header-middleRow{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-middleRow img{
+    width: 160px;
+}
+.header-middleRow ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 300px;
+}
+.header-middleRow form{
+    width: 30%;
+}
+.header-middleRow input{
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+}
+/*           HEADER BOTTOM ROW        */
+.header-bottomRow ul{
+    display: flex; 
+    list-style: none;
+    margin: 0 20px 0 20px;
+}
+.header-bottomRow li{
+    padding: 0 30px 0 30px;
+}
+
+/*          PRODUCT          */
+.product-main{
+    margin: auto;
+    width: 88%;
+}
+.breadcrumb{
+    margin-bottom: 20px;
+}
+.breadcrumb ul,li{
+    display: flex;
+    list-style-type: none;
+}
+.breadcrumb li::after{
+    content: " > ";
+    padding: 0 10px 0 10px;
+}
+.breadcrumb li:last-child::after{
+    content: "";
+}
+.checked {
+    color: orange;
+}
+
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.product-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 980px;
+}
+.product-main img{
+    width: 490px;
+}
+.product-detail{
+    width: 310px;
+    margin: 2px;
+}
+.details-top .detail-text, .details-top .detail-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.details-top{
+    display: flex;
+    justify-content: space-between;
+}
+.product-detail p{
+    font-size: 14px;
+}
+.product-images img{
+    padding: 2px;
+    width: 50%;
+}
+.sticky-container{
+    position: sticky;
+    top: 1px;
+    overflow:scroll;
+}
