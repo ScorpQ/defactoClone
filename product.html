@@ -24,16 +24,27 @@
         <div class="header-container-middleRow">
             <img src="//dfcdn.defacto.com.tr/AssetsV2/dist/img/de-facto-logo-light-v2.svg">
             <ul>
-                <li>Kadın</li>
-                <li>Erkek</li>
-                <li>Çocuk</li>
-                <li>Bebek</li>
-                <li>DF FIT</li>
+                <li class="active" onmouseover="overAnimation()">KADIN
+                    <div class="hoverAnim"></div>
+                </li>
+                <li onmouseover="overAnimation()">ERKEK
+                    <div class="hoverAnim"></div>
+                </li>
+                <li onmouseover="overAnimation()">ÇOCUK
+                    <div class="hoverAnim"></div>
+                </li>
+                <li onmouseover="overAnimation()">BEBEK
+                    <div class="hoverAnim"></div>
+                </li>
+                <li onmouseover="overAnimation()">DF FIT
+                    <div class="hoverAnim"></div>
+                </li>
             </ul>
             <form>
-                <input type="text" placeholder="Ara: Tişört, elbise, pantolon, mayo, terlik">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="      Ara: Tişört, elbise, pantolon, mayo, terlik">    
             </form>
-            <div class="header_buttons">
+            <div class="container-buttons">
                 <button type="button">Giriş</button>
                 <button type="button">Favorilerim</button>
                 <button type="button">Sepetim</button>
@@ -54,7 +65,7 @@
                 <li><a></a></li>
                 <li><a></a></li>
                 <li><a></a></li>
-                <li><a></a></li>
+                <li class="active"><a></a></li>
             </ul>
         </div>
         <div class="product">
@@ -68,12 +79,12 @@
                 <div class="details-top">
                     <div class="detail-text">
                         <p></p>
-                        <p></p>
-                        <p>Ürün Kodu:<span></span></p>    
+                        <p class="price"><span>TL</span></p>
+                        <p class="code">Ürün Kodu: <span></span></p>    
                     </div>
                     <div class="detail-icons">
                         <p><i class="fa-regular fa-heart"></i></p>
-                        <p><i class="fa-duotone fa-share-nodes"></i></p>
+                        <p><i class="fa-solid fa-share-nodes"></i></p>
                     </div>
                 </div>
                 <div class="sticky-container">

@@ -4,13 +4,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Mulish', sans-serif;
 }
+/*    ADD VIA JS    */
+.hover{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+
 /*           HEADER         */
 .header-container{
     display: flex;
     flex-direction: column;  
     justify-content: space-evenly;
-    padding: 5px 10px 5px 10px;
+    padding: 6px 10px 5px 10px;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -50,61 +59,96 @@
     &-middleRow{
         display:flex;
         justify-content: space-between;
+        font-family: 'Mulish', sans-serif;
         align-items: center;
         padding: 8px;
+        .container-buttons{
+            margin: 0 0 0 10px;
+            flex-wrap: nowrap;
+            min-width: 300px;
+        }
         img{
             width: 135px;
         }
         ul{
             display: flex;
-            flex-wrap: wrap;
             list-style-type: none;
-            justify-content: space-around;
-            width: 300px;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+            li{
+                font-size: 14px;
+                margin: 0 10px 0 10px;
+                padding-bottom: 1px;
+                word-wrap: break-word;
+            }
+            .active{
+                font-weight: bold;
+                text-shadow: 0 0 25px rgb(31, 31, 31);
+                border-bottom: 2px solid black;
+            }
+        }
+        button{
+            padding: 5px 20px 5px 20px;
         }
         form{
             width: 30%;
-        }
-        input{
-            padding: 10px 20px 10px 20px;
-            width: 100%;
+            position: relative;
+            input{
+                padding: 10px 20px 10px 20px;
+                width: 90%;
+            }
+            i{
+                position: absolute;
+                top : 12px;
+                left : 15px;
+                color:rgb(206, 204, 204);
+            }
         }
     }
     /*         HEADER BOTTOM ROW        */
     &-bottomRow{
         border-bottom: 1px solid rgb(206, 204, 204); 
+        font-family: 'Mulish', sans-serif;
         ul{
             display: flex; 
             list-style: none;
             margin: 0 20px 0 20px;
+            padding-top: 13px;
+            padding-bottom:10px;
         }
         li{
-            padding: 0 30px 0 30px;
+            padding: 0 20px 0 20px;
+            font-size: 13px;
         }
     }
 }
 /*          PRODUCT          */
 .product-main{
-    margin: auto;
+    margin: 10px auto auto auto;
     width: 88%;
     .breadcrumb{
-        margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 12px;
+        font-family: 'Mulish', sans-serif;
+        color: rgb(121, 120, 120);
         ul,li{
             display: flex;
             list-style-type: none;
         }
         li::after{
             content: " > ";
-            padding: 0 10px 0 10px;
+            padding: 0 25px 0 25px;
         }
         li:last-child::after{
             content: "";
         }
+        .active{
+            font-weight: bold;
+        }
     }
     .product{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         position: relative;
         .product-images{
             display: flex;
@@ -112,24 +156,37 @@
             justify-content:space-between;
             width: 980px;
             img{
-                padding: 2px;
+                padding: 1px;
                 width: 50%;
             }
         }
         .product-detail{
-            width: 310px;
-            margin: 2px;
+            width: 320px;
+            padding-left: 15px;
             .details-top{
                 display: flex;
                 justify-content: space-between;
-                .detail-text,.detail-icons{
+                .detail-text,.detail-icons{ 
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    p{
+                    i{
+                        font-size:  18px;
+                    }
+                    p, span{
                         font-size: 14px;
                     }
+                    .price{
+                        font-weight: 700;
+                        font-size: 16px;
+                        margin: 10px 0 25px 0;
+                    }
+                    .code,.code span{
+                        font-size: 11px;
+                        color:rgb(115, 117, 119)
+                    }
                 }
+                
             }
             .sticky-container{
                 position: sticky;

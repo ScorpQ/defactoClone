@@ -15,8 +15,8 @@ fetch("jsons/ProductDetail.json")
 
         //JSON'Dan ürün adı, fiyat ve ürün kodu çekildi.
         document.getElementsByClassName("detail-text")[0].getElementsByTagName("p")[0].innerHTML = data.Data.ProductName;
-        document.getElementsByClassName("detail-text")[0].getElementsByTagName("p")[1].innerHTML = data.Data.ProductVariantDiscountedPriceInclTax + " TL";        
-        document.getElementsByClassName("detail-text")[0].getElementsByTagName("span")[0].innerHTML = data.Data.ProductMainCode;
+        document.getElementsByClassName("detail-text")[0].getElementsByClassName("price")[0].innerHTML = data.Data.ProductVariantDiscountedPriceInclTax + document.getElementsByClassName("detail-text")[0].getElementsByClassName("price")[0].innerHTML;        
+        document.getElementsByClassName("detail-text")[0].getElementsByTagName("span")[1].innerHTML = data.Data.ProductMainCode;
     
         //ProductDetailPictures
         for(let i = 0; i < 4; i++){
@@ -41,4 +41,9 @@ fetch("jsons/ProductDetail.json")
             document.getElementsByClassName("header-container")[0].children[0].style.overflow = "visible";
             document.getElementsByClassName("header-container")[0].style.borderBottom = "none";
         }
+    }
+
+    //Menüdekilerin üstüne gelince hover animasyonu.  .hover
+    function overAnimation(){
+        console.log("tetikleniyor.");
     }
