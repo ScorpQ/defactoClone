@@ -6,6 +6,17 @@
     <title>Defacto Challenge</title>
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/searchJS.js"></script>
+    <script>
+        //json dosyasından ürünleri listemek
+        fetch("jsons/Search.json").then((response) => response.json())
+        .then((data) => {
+            let contentLenght = data.Data.SearchResponse.Documents.length;
+            for(let i = 0; i < contentLenght; i++){
+                document.body.getElementsByClassName("content")[0].children[i].children[0].src =
+                data.Data.SearchResponse.Documents[i].ProductPictures[0].ProductPicturePath;
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="header">
@@ -28,13 +39,12 @@
         </div>
     </div>
     <div class="content">
-        <a href="product.html"><img class="product" src="img/A.jpg"></a>
-        <p class="urun"></p>
-        <img class="product" src="img/B.jpg">
-        <img class="product" src="img/C.png">
-        <img class="product" src="img/C.png">
-        <img class="product" src="img/B.jpg">
-        <img class="product" src="img/A.jpg">
+        <a href="#"><img class="product" src=""></a>
+        <a href="#"><img class="product" src=""></a>
+        <a href="#"><img class="product" src=""></a>
+        <a href="#"><img class="product" src=""></a>
+        <a href="#"><img class="product" src=""></a>
+        <a href="#"><img class="product" src=""></a>
     </div>
 </body>
 </html>

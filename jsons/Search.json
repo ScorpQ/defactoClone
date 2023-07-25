@@ -8,7 +8,7 @@
       "Documents": 
         [
           {
-            "DiscountRate": 0,
+            "DiscountRate": 0,  
             "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
             "ProductName": "Crop Pötikareli Yuvarlak Yaka Kolsuz Bluz",
             "ProductNames": [
@@ -21,7 +21,7 @@
               {
                 "ProductPictureIsDefault": true,
                 "ProductPictureOrder": 1,
-                "ProductPicturePath": "X4612AZ_22SM_BK27_01_02.jpg"
+                "ProductPicturePath": "https://dfcdn.defacto.com.tr/7/S0023AZ_23HS_BK81_01_01.jpg"
               },
               {
                 "ProductPictureIsDefault": false,
@@ -47,7 +47,223 @@
             "ProductLongCode": "X4612AZ22SMBK27",
             "ColorName": "Siyah",
             "Stock": 64,
-            "ProductMainCode": "X4612AZBK27"
+            "ProductMainCode": "X4612AZBK27",
+            "ProductLink": "product.html"
+          },
+          {
+            "DiscountRate": 0,  
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Regular Fit Atlet",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Regular Fit Atlet"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "https://dfcdn.defacto.com.tr/7/Z7115AZ_23SM_ER37_01_01.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27",
+            "ProductLink": "#"
+          },
+          {
+            "DiscountRate": 0,  
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Gömlek Yaka Baskılı Uzun Kollu Uzun Kollu Elbise",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Gömlek Yaka Baskılı Uzun Kollu Uzun Kollu Elbise"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "https://dfcdn.defacto.com.tr/7/A8136AX_23HS_BG757_01_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27",
+            "ProductLink": "#"
+          },
+          {
+            "DiscountRate": 0,  
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Slim Fit Polo Yaka Basic Kısa Kollu Pamuklu Tişört",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Slim Fit Polo Yaka Basic Kısa Kollu Pamuklu Tişört"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "https://dfcdn.defacto.com.tr/7/M6609AZ_23SP_IN131_02_03.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27",
+            "ProductLink": "#"
+          },
+          {
+            "DiscountRate": 0,  
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Regular Fit Polo Yaka Keten Karışımlı Uzun Kollu Gömlek",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Regular Fit Polo Yaka Keten Karışımlı Uzun Kollu Gömlek"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "https://dfcdn.defacto.com.tr/7/M9435AZ_23SM_BK27_01_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27",
+            "ProductLink": "#"
+          },
+          {
+            "DiscountRate": 0,  
+            "ProductId": "ce5d81d4-ac6c-4ece-93a5-d401704685e9",
+            "ProductName": "Kadın Kendini Onaran Su İtici Baskılı Büyük Okul Sırt Çantası",
+            "ProductNames": [
+              {
+                "LanguageIndex": 1,
+                "ProductName": "Kadın Kendini Onaran Su İtici Baskılı Büyük Okul Sırt Çantası"
+              }
+            ],
+            "ProductPictures": [
+              {
+                "ProductPictureIsDefault": true,
+                "ProductPictureOrder": 1,
+                "ProductPicturePath": "https://dfcdn.defacto.com.tr/7/V0883AZ_NS_BK27_01_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 2,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_02_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 3,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_03_02.jpg"
+              },
+              {
+                "ProductPictureIsDefault": false,
+                "ProductPictureOrder": 4,
+                "ProductPicturePath": "X4612AZ_22SM_BK27_04_02.jpg"
+              }
+            ],
+            "ProductPriceInclTax": 129.99,
+            "ProductVariantDiscountedPriceInclTax": 109.99,
+            "ProductVariantIndex": 2453183,
+            "ProductSeoName": "crop-potikareli-yuvarlak-yaka-kolsuz-bluz",
+            "CurrencyDisplay": "TL",
+            "ProductLongCode": "X4612AZ22SMBK27",
+            "ColorName": "Siyah",
+            "Stock": 64,
+            "ProductMainCode": "X4612AZBK27",
+            "ProductLink": "#"
           }
         ],
       "Facets": [
