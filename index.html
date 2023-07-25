@@ -5,22 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Defacto Challenge</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script>
-        function searchProduct(){
-            let productLength;
-            let target = document.getElementsByTagName("input")[0].value;
-            fetch("jsons/Search.json")
-                .then(response => response.json())
-                .then( data => { 
-                productLength = data.Data.SearchResponse.Documents.ProductNames.length;
-                for(let i = 0; i < productLength; i++){
-                if(target.match(data.Data.SearchResponse.Documents.ProductNames[i].ProductName)){
-                        console.log(data.Data.SearchResponse.Documents.ProductNames[i].ProductName);
-                    }
-                }
-            }) 
-        }
-    </script>
+    <script src="scripts/searchJS.js"></script>
 </head>
 <body>
     <div class="header">

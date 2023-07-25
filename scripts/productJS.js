@@ -24,7 +24,7 @@ fetch("jsons/ProductDetail.json")
         }
     })
 
-    //Down scroll sırasında headerbar'da animasyon kodları.
+    //Headerbar animasyon kodları.
     function headerBorder(){
         document.getElementsByClassName("header-container")[0].children[0].style.height = 0;
         document.getElementsByClassName("header-container")[0].children[0].style.opacity = 0;
@@ -37,13 +37,18 @@ fetch("jsons/ProductDetail.json")
             document.getElementsByClassName("header-container")[0].children[0].style.height = "max-content";
             document.getElementsByClassName("header-container")[0].children[0].style.opacity = 1;
             document.getElementsByClassName("header-container")[0].children[0].style.padding = "4px 0 0 0";
-            document.getElementsByClassName("header-container")[0].children[0].style.marginBottom = "10px";//X
+            document.getElementsByClassName("header-container")[0].children[0].style.marginBottom = "10px";
             document.getElementsByClassName("header-container")[0].children[0].style.overflow = "visible";
             document.getElementsByClassName("header-container")[0].style.borderBottom = "none";
         }
     }
 
-    //Menüdekilerin üstüne gelince hover animasyonu.  .hover
-    function overAnimation(){
-        console.log("tetikleniyor.");
+    //Sidebar sticky-absolute değişim kodları.
+    function stickyToAbsolute(){
+        if(document.documentElement.scrollTop >= 1000){
+            document.getElementsByClassName("sticky-container")[0].style.position = "absolute";
+        }
+        else{
+            document.getElementsByClassName("sticky-container")[0].style.position = "sticky";
+        }
     }

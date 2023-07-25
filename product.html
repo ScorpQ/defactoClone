@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles/productSCSS.css">
     <script src="scripts/productJS.js"></script>
     <script src="https://kit.fontawesome.com/27b556647c.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
-<body onscroll="headerBorder()">
+<body onscroll="headerBorder(); overAnimation();">
     <div class="header-container">
         <div class="header-container-topRow">
             <ul>
@@ -24,25 +25,25 @@
         <div class="header-container-middleRow">
             <img src="//dfcdn.defacto.com.tr/AssetsV2/dist/img/de-facto-logo-light-v2.svg">
             <ul>
-                <li class="active" onmouseover="overAnimation()">KADIN
+                <li class="first active" >KADIN
                     <div class="hoverAnim"></div>
                 </li>
-                <li onmouseover="overAnimation()">ERKEK
+                <li class="second">ERKEK
                     <div class="hoverAnim"></div>
                 </li>
-                <li onmouseover="overAnimation()">ÇOCUK
+                <li class="thirth">ÇOCUK
                     <div class="hoverAnim"></div>
                 </li>
-                <li onmouseover="overAnimation()">BEBEK
+                <li class="fourth">BEBEK
                     <div class="hoverAnim"></div>
                 </li>
-                <li onmouseover="overAnimation()">DF FIT
+                <li class="fifth">DF FIT
                     <div class="hoverAnim"></div>
                 </li>
             </ul>
             <form>
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="      Ara: Tişört, elbise, pantolon, mayo, terlik">    
+                <input type="text" placeholder="Ara: Tişört, elbise, pantolon, mayo, terlik">    
             </form>
             <div class="container-buttons">
                 <button type="button">Giriş</button>
@@ -88,8 +89,8 @@
                     </div>
                 </div>
                 <div class="sticky-container">
-                    <div class="details-middle">
-                        <p>Değerlendirme</p>
+                    <p>Değerlendirme</p>    
+                    <div class="comment-rate">
                         <div class="details-rating">
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
@@ -97,10 +98,61 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star"></span>
                         </div>
+                        <p>160 Yorumu Görüntüle</p>
+                    </div>
+                    <div class="shipper-button">
+                        <i class="fa-regular fa-clock clock"></i>
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                        <a href="#">24 Saatte Kargoda</a>
+                    </div>
+                    <div class="variants">
+                        <p>Seçilen Renk:<span> Siyah</span></p>
+                        <div class="variants-img">
+                            <img class="active" src="https://dfcdn.defacto.com.tr/7/S0023AZ_23HS_BK81_01_01.jpg">
+                            <img src="https://dfcdn.defacto.com.tr/1/S0023AZ_23HS_BE514_01_01.jpg">
+                        </div>
+                    </div>
+                    <div class="body-measures">
+                        <div class="body-measures-header">
+                            <p>Beden Seçenekleri</p>
+                            <a href="#">Beden Kılavuzu</a>
+                        </div>
+                        <div class="body-measures-options">
+                            <ul>
+                                <li>S</li>
+                                <li>M</li>
+                                <li>L</li>
+                                <li>XL</li>
+                                <li>XXL</li>
+                                <li>3XL</li>
+                            </ul>
+                        </div>
+                        <button>SEPETE EKLE</button>
+                    </div>
+                    <div class="help-options">
+                        <ul>
+                            <li><a href="#">Mağazada Ara</a></li>
+                            <li><a href="#">Kapıda Ödeme</a></li>
+                            <li><a href="#">Ücretsiz iade</a></li>
+                        </ul>
+                        <button><iconify-icon icon="ps:machine-wash-permanent-press"></iconify-icon>Bakım Talimati</button>
+                        
+                    </div>
+                    <div class="details-bottom">
+                        <ul>
+                            <li>Ürün Detay</li>
+                            <li><iconify-icon icon="et:gift"></iconify-icon>DeFacto Gift Club</li>
+                            <li>Teslimat Bilgileri</li>
+                            <li>İade ve Değişim</li>
+                            <li>Ödeme Bilgileri</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        end
     </div>
     
 </body>
