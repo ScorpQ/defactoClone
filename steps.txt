@@ -1,0 +1,11 @@
+1- html olarak sayfaların dızayn edılmesı (urun verılerı statıc olarak yapılacak)X 
+2 - json dosyadan verıyı okuyacak ve ekrana basacak sekılde dınamık yapıya cevırelımX
+3 - search özelliği ekleyelım ve serache göre urunler filtrelenerek listelemeye basılacak
+4- Sass - scss bunları ekleyelımXX
+5 - bootstrap kullanalım
+
+
+Eklenmesi plananlar:
+Task Runner: Gulp'u kullanmaya calıstım, cogu eklentiyi otomatik calıstırmamızı saglıyor, mesela sass'ı kurmadan gulp ile bir
+sass dosyasını compile edebiliyoruz ama ben sass'ı visualstudio code ile compile ediyorum zaten. Bu projenin neresine entegre etsem
+bilemedim.

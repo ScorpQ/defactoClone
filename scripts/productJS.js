@@ -7,7 +7,7 @@ fetch("jsons/ProductDetail.json")
 
         //JSON'dan breadcrumb verileri çekildi.
         for(let i=0; i<4; i++){
-            document.getElementsByTagName("ul")[4].getElementsByTagName("a")[i].innerHTML =data.Data.Breadcrumbs[i].Name;
+            document.getElementsByTagName("ul")[4].getElementsByTagName("a")[i].innerHTML = data.Data.Breadcrumbs[i].Name;
             if(i==3){
                 document.getElementsByTagName("ul")[4].getElementsByTagName("a")[4].innerHTML =data.Data.ProductName;
             }

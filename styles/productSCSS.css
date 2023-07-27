@@ -6,13 +6,6 @@
   font-family: "Mulish", sans-serif;
 }
 
-/*    ADD VIA JS    */
-.hover {
-  width: 100%;
-  height: 1px;
-  background-color: black;
-}
-
 /*           HEADER         */
 .header-container {
   display: flex;
@@ -64,11 +57,6 @@
   align-items: center;
   padding: 8px;
 }
-.header-container-middleRow .container-buttons {
-  margin: 0 0 0 10px;
-  flex-wrap: nowrap;
-  min-width: 300px;
-}
 .header-container-middleRow img {
   width: 135px;
 }
@@ -84,6 +72,9 @@
   padding-bottom: 1px;
   word-wrap: break-word;
 }
+.header-container-middleRow ul .active {
+  text-shadow: 0 0 0.1em rgb(0, 0, 0);
+}
 .header-container-middleRow ul .active:after {
   font-weight: bold;
   text-shadow: 0 0 25px rgb(31, 31, 31);
@@ -91,10 +82,10 @@
   transition: all 0.5s ease;
   content: "";
   height: 1px;
-  width: 100%;
+  width: 100% !important;
   background: none repeat scroll 0 0 #090808;
 }
-.header-container-middleRow ul .second:after {
+.header-container-middleRow ul .list:after {
   display: block;
   transition: all 0.5s ease;
   content: "";
@@ -102,18 +93,18 @@
   width: 0;
   background: none repeat scroll 0 0 #090808;
 }
-.header-container-middleRow ul .second:hover:after {
-  width: 100%;
+.header-container-middleRow ul .list:hover {
+  text-shadow: 0 0 0.1em rgb(0, 0, 0);
 }
-.header-container-middleRow button {
-  padding: 5px 20px 5px 20px;
+.header-container-middleRow ul .list:hover:after {
+  width: 100%;
 }
 .header-container-middleRow form {
   width: 30%;
   position: relative;
 }
 .header-container-middleRow form input {
-  padding: 10px 20px 10px 40px;
+  padding: 9px 20px 9px 40px;
   width: 90%;
 }
 .header-container-middleRow form i {
@@ -121,6 +112,33 @@
   top: 12px;
   left: 15px;
   color: rgb(206, 204, 204);
+}
+.header-container-middleRow .container-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.header-container-middleRow .container-buttons button {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px;
+  border: none;
+  background-color: white;
+}
+.header-container-middleRow .container-buttons i {
+  padding: 0 10px 0 0px;
+  font-size: 18px;
+}
+.header-container-middleRow .container-buttons button:after {
+  display: block;
+  transition: all 0.3s ease;
+  content: "";
+  height: 1px;
+  width: 0;
+  background: none repeat scroll 0 0 #090808;
+}
+.header-container-middleRow .container-buttons button:hover:after {
+  width: 100%;
 }
 .header-container-bottomRow {
   border-bottom: 1px solid rgb(206, 204, 204);
