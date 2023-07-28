@@ -6,10 +6,10 @@ fetch("jsons/ProductDetail.json")
         document.title = data.Data.MetaTitle;
 
         //JSON'dan breadcrumb verileri çekildi.
-        for(let i=0; i<4; i++){
+        for(let i=0; i<data.Data.Breadcrumbs.length; i++){
             document.getElementsByTagName("ul")[4].getElementsByTagName("a")[i].innerHTML = data.Data.Breadcrumbs[i].Name;
             if(i==3){
-                document.getElementsByTagName("ul")[4].getElementsByTagName("a")[4].innerHTML =data.Data.ProductName;
+                document.getElementsByTagName("ul")[4].getElementsByTagName("a")[4].innerHTML = data.Data.ProductName;
             }
         }    
 
@@ -22,7 +22,19 @@ fetch("jsons/ProductDetail.json")
         for(let i = 0; i < 4; i++){
             document.getElementsByClassName("product-images")[0].children[i].src = data.Data.ProductDetailPictures[i].ProductPictureName;
         }
-    })
+
+        //Ürünün beden seçenekleri çekildi.
+        for(let i = 0; i < data.Data.ProductDetailSize.DetailSizes.length; i++){
+            let newSize = document.createElement("div");
+            newSize.innerHTML = data.Data.ProductDetailSize.DetailSizes[i].Size;
+            newSize.classList.add("size");
+            document.getElementsByClassName("body-measures-options")[0].appendChild(newSize);
+        }
+
+    })  
+
+
+
 
     //Headerbar animasyon kodları.
     function headerBorder(){
@@ -42,7 +54,6 @@ fetch("jsons/ProductDetail.json")
             document.getElementsByClassName("header-container")[0].style.borderBottom = "none";
         }
     }
-
     //Sidebar sticky-absolute değişim kodları.
     function stickyToAbsolute(){
         if(document.documentElement.scrollTop >= 1000){

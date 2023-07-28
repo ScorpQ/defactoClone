@@ -91,7 +91,7 @@
             "ColorName": "Siyah",
             "Stock": 64,
             "ProductMainCode": "X4612AZBK27",
-            "ProductLink": "#"
+            "ProductLink": "test2"
           },
           {
             "DiscountRate": 0,  
@@ -134,7 +134,7 @@
             "ColorName": "Siyah",
             "Stock": 64,
             "ProductMainCode": "X4612AZBK27",
-            "ProductLink": "#"
+            "ProductLink": "#test3"
           },
           {
             "DiscountRate": 0,  
@@ -177,7 +177,7 @@
             "ColorName": "Siyah",
             "Stock": 64,
             "ProductMainCode": "X4612AZBK27",
-            "ProductLink": "#"
+            "ProductLink": "test4"
           },
           {
             "DiscountRate": 0,  
@@ -220,7 +220,7 @@
             "ColorName": "Siyah",
             "Stock": 64,
             "ProductMainCode": "X4612AZBK27",
-            "ProductLink": "#"
+            "ProductLink": "test5"
           },
           {
             "DiscountRate": 0,  
@@ -263,7 +263,7 @@
             "ColorName": "Siyah",
             "Stock": 64,
             "ProductMainCode": "X4612AZBK27",
-            "ProductLink": "#"
+            "ProductLink": "test6"
           }
         ],
       "Facets": [

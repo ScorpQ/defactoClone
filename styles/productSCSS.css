@@ -70,7 +70,7 @@
   font-size: 14px;
   margin: 0 10px 0 10px;
   padding-bottom: 1px;
-  word-wrap: break-word;
+  word-break: break-word;
 }
 .header-container-middleRow ul .active {
   text-shadow: 0 0 0.1em rgb(0, 0, 0);
@@ -85,7 +85,7 @@
   width: 100% !important;
   background: none repeat scroll 0 0 #090808;
 }
-.header-container-middleRow ul .list:after {
+.header-container-middleRow ul li:after {
   display: block;
   transition: all 0.5s ease;
   content: "";
@@ -93,10 +93,10 @@
   width: 0;
   background: none repeat scroll 0 0 #090808;
 }
-.header-container-middleRow ul .list:hover {
+.header-container-middleRow ul li:hover {
   text-shadow: 0 0 0.1em rgb(0, 0, 0);
 }
-.header-container-middleRow ul .list:hover:after {
+.header-container-middleRow ul li:hover:after {
   width: 100%;
 }
 .header-container-middleRow form {
@@ -293,7 +293,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 125px;
   margin-top: 18px;
 }
 .product-main .product .product-detail .sticky-container .body-measures-header {
@@ -309,13 +308,21 @@
   content: " > ";
   padding-left: 5px;
 }
-.product-main .product .product-detail .sticky-container .body-measures-options ul {
+.product-main .product .product-detail .sticky-container .body-measures-options {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
   font-size: 14px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.product-main .product .product-detail .sticky-container .body-measures-options .size {
+  margin: 7px 5px 7px 5px;
+  padding: 6px 10px 6px 10px;
+  border: none;
 }
 .product-main .product .product-detail .sticky-container .body-measures button {
+  margin-top: 15px;
   border: none;
   background-color: rgb(135, 135, 135);
   color: rgb(192, 190, 190);

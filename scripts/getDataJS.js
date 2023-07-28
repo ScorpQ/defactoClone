@@ -1,7 +1,6 @@
 //json dosyasından ürünleri listemek
 fetch("jsons/Search.json").then((response) => response.json())
 .then((data) => {
-
     //short-cut of json path. Bu değişkenler json dosyası ile ilişkili.
     let shortJsonDoc = data.Data.SearchResponse.Documents;
 
