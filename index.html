@@ -5,19 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Defacto Challenge</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/getDataJS.js"></script>
     <script src="scripts/searchJS.js"></script>
-    <script>
-        //json dosyasından ürünleri listemek
-        fetch("jsons/Search.json").then((response) => response.json())
-        .then((data) => {
-            let contentLenght = data.Data.SearchResponse.Documents.length;
-            for(let i = 0; i < contentLenght; i++){
-                document.body.getElementsByClassName("content")[0].children[i].children[0].src =
-                data.Data.SearchResponse.Documents[i].ProductPictures[0].ProductPicturePath;
-            }
-            
-        });
-    </script>
+    <script src="scripts/subMethods.js"></script>
 </head>
 <body>
     <div class="header">
@@ -40,12 +30,12 @@
         </div>
     </div>
     <div class="content">
-        <a href="#"><img class="product" src=""></a>
-        <a href="#"><img class="product" src=""></a>
-        <a href="#"><img class="product" src=""></a>
-        <a href="#"><img class="product" src=""></a>
-        <a href="#"><img class="product" src=""></a>
-        <a href="#"><img class="product" src=""></a>
+        <a href="#"><img src=""></a>
+        <a href="#"><img src=""></a>
+        <a href="#"><img src=""></a>
+        <a href="#"><img src=""></a>
+        <a href="#"><img src=""></a>
+        <a href="#"><img src=""></a>
     </div>
 </body>
 </html>
