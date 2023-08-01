@@ -1,5 +1,5 @@
 function searchProduct() {
-
+    //SOLID prensipleri, class, web optimizasyon(yt, medium),
     // Inputtaki değer
     let target = document.getElementsByTagName("input")[0].value.trim().toLowerCase();
 
@@ -77,5 +77,7 @@ function searchProduct() {
                 contentDiv.appendChild(newProduct); // content div'ine a tag'i eklendi.
             }
         }
-    })     
+    })   
+    // hata gösterme.
+    .catch(error => alert(error.message));  
 }

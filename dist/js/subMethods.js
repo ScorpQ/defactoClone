@@ -1,0 +1,1 @@
+function imgTagCreater(e,t){if(void 0!==t){let r=document.createElement("img");return r.src=e,r.classList.add(t),r}{let t=document.createElement("img");return t.src=e,t}}function aTagCreater(e,t){if(void 0!==t){let r=document.createElement("a");return r.href=e,r.classList.add(t),r}{let t=document.createElement("a");return t.href=e,t}}
